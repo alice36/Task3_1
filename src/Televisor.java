@@ -10,4 +10,14 @@ public class Televisor {
         this.przekatna = przekatna;
     }
 
+    void turnOn(){
+        isTurnOn = true;
+    }
+    void turnOff(){
+        isTurnOn = false;
+    }
+
+    void ShowStatus(){
+        System.out.println(isTurnOn);
+    }
 }
